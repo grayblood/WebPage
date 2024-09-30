@@ -1,0 +1,202 @@
+/*Fonts*/
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/res/Fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+
+
+/* General body */
+body {
+    background-color: #c6d3d9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0%;
+    font-family: "Montserrat", 'Times New Roman', Times, serif;
+}
+
+/* top nav should be on every page to be able to return to the index. */
+.topnavbarfull {
+    /* background-color: #cfe0e8;*/
+    background-color: #484848;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+
+}
+
+.topnavbarcenter {
+    display: flex;
+    gap: 1%;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.navImage {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.topnavitemsdiv {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.topnavitem {
+    /*Remove this is only to give a little width to the buttons */
+    flex-basis: 15%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: white;
+}
+
+/*All pages should have a central zone */
+
+.centerzone {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #c6d3d9;
+}
+
+/* The foot zone should also be on all pages */
+
+.theendzone {
+    background-color: rgb(72, 72, 72);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.theendzonecontent {
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+/*the end zone selectors*/
+.theendzone p {
+    text-align: center;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.theendzone h1 {
+    color: white;
+}
+
+
+
+.ecolumnfirst {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ecolumnfirst h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ecolumnfirst p {
+    text-align: left;
+}
+
+.ecolumnsecond {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 2px;
+}
+
+.ecolumnsecond p {
+    font-size: 0.9rem;
+
+}
+
+.ecolumnsecond a {
+    text-decoration: none;
+    color: rgb(144, 180, 203);
+    font-size: 0.9rem;
+}
+
+.ecolumnthird {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ecolumnthird img {
+    border-radius: 50%;
+}
+
+
+/* General Selectors*/
+
+hr {
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+h2 {
+    margin: 0;
+
+}
+
+
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}

@@ -1,0 +1,259 @@
+.cfirstrow {
+    margin-top: 5rem;
+    border-radius: 5rem;
+    padding: 2rem;
+    max-width: 1024px;
+}
+
+
+.cContents {
+    gap: 1.25rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.ccBigName {
+    padding: 2rem;
+    color: white;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.ccBigName h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 800;
+}
+
+.ccBigName h4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.ccBigName p {
+    font-size: 1.125rem;
+    line-height: 1.75rem
+}
+
+
+.ccImage {
+    padding: 35px;
+}
+
+.ccImage img {
+    border-radius: 50%;
+}
+
+.cSocialRow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 1.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cSRItem {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    text-align: center;
+    display: block;
+    padding: 1rem;
+}
+
+.linkbox {
+    color: white;
+    text-align: center;
+    padding: .75rem;
+    background-color: black;
+    border-radius: .25rem;
+    display: block;
+}
+
+.projectRow {
+    padding-bottom: 1.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.projectRow p {
+    text-align: center;
+    font-weight: 700;
+}
+
+.projectBox {
+    gap: 1rem;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.projectItem {
+    text-align: center;
+    padding: 1rem;
+    background-color: black;
+    border-radius: .25rem;
+    gap: .5rem;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+    
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 500px;
+    max-height: 500px;
+    /*min-width: 180px;*/
+}
+
+.projectItem h2 {
+    font-size: 2rem;
+    font-weight: 500;
+
+}
+
+.knowledgeRow {
+    padding-bottom: 1.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.knowledgeRow p {
+    text-align: center;
+    font-weight: 700;
+}
+
+.knowledgeBox {
+    gap: 1rem;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.knowledgeItem {
+    text-align: center;
+    padding: 1rem;
+    background-color: black;
+    border-radius: .25rem;
+    gap: .5rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: .5rem;
+    min-width: 180px;
+}
+
+.knowledgeItem img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.knowledgeItem p {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+
+.csecondrow {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.title {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    background-color: #750E21;
+}
+
+.cContent {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 25px;
+    padding-top: 20px;
+}
+
+.subTitle {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    background-color: #E3651D;
+
+}
+
+.infoImage1s {
+    display: flex;
+    margin: 20px;
+}
+
+.infoLine1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    min-height: 200px;
+}
+
+.infoLine1 .infoColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+}
+
+.infoLink {
+    align-self: flex-end;
+}
+
+.brown {
+    background-color: #AD49E1;
+}
+
+.white {
+    background-color: #EBD3F8;
+}
+
+.infoImage2 {
+    display: flex;
+    margin: 20px;
+}
+
+.infoLine2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    min-height: 200px;
+}
+
+.infoLine2 .infoColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+.infoLine2 .infoColumn .infoLink {
+    align-self: flex-start;
+}
